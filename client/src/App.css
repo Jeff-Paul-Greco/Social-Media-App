@@ -1,11 +1,32 @@
 body {
-  background-color: black;
+  background-color: indigo;
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  text-shadow: 1px 1px black;
 }
 
 .card {
-  background-color: rgba(128, 128, 128, 0.2);
+  background-color: black;
   margin-top: 25px;
+  border: 1px solid rgb(131, 131, 131);
+  border-radius: 20px;
+  z-index: 100;
+}
+
+.card-body {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.comments-link {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.comments-link:hover {
+  color: black;
+  text-shadow: none;
+  text-decoration: none;
 }
 
 .nav-contain {
@@ -14,6 +35,8 @@ body {
 
 nav {
   border-bottom: .5px solid grey;
+  background-color: black;
+  z-index: 100;
 }
 
 nav, nav a, .navbar-brand {
