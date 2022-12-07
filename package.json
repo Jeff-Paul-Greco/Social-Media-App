@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Jeff-Paul-Greco/Social-Media-App#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongoose": "^5.9.10",
     "path": "^0.12.7",
     "react-router-dom": "^5.1.2"
